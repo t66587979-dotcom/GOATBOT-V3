@@ -33,8 +33,7 @@ This bot uses **appState login** to authenticate with Facebook Messenger.
 
 Run the bot using:
 
-```bash``
-node index.js
+`node index.js`
 
 --- 
 
