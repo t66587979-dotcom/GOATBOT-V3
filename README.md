@@ -17,42 +17,12 @@ This project includes a command system, event handlers, database support, uptime
 
 ---
 
-## 📂 Project Structure
-
-.
-├── Main.js
-├── account.txt
-├── configCommands.json
-├── includes/
-│   ├── autoUptime.js
-│   ├── custom.js
-│   ├── connectDB/
-│   │   ├── connectMongoDB.js
-│   │   └── connectSqlite.js
-│   ├── controller/
-│   │   ├── dashBoardData.js
-│   │   ├── globalData.js
-│   │   ├── threadsData.js
-│   │   ├── usersData.js
-│   │   └── index.js
-│   ├── handler/
-│   │   ├── CheckData.js
-│   │   ├── onEvent.js
-│   │   ├── onReaction.js
-│   │   └── onReply.js
-│   └── utils/
-│       └── ...
-└── package.json
-
-
----
-
 ## 🔐 Login System
 
 This bot uses **appState login** to authenticate with Facebook Messenger.
 
 - Login logic is handled inside `Main.js`
-- Session data is stored in `account.json`
+- Session data is stored in `account.txt`
 - No username/password required in code
 
 > AppState allows secure and faster login handling.
@@ -63,8 +33,10 @@ This bot uses **appState login** to authenticate with Facebook Messenger.
 
 Run the bot using:
 
-```bash
-node Main.js
+```bash``
+node index.js
+
+--- 
 
 
 ## 🧠 Core Modules
