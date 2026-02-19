@@ -55,8 +55,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "MARIA V3",
-  "prefix": "!",
+  "nickNameBot": "✦ 𝙏𝙊𝙍𝙐 𝘾𝙃𝘼𝙉 ✦",
+  "prefix": ".",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
